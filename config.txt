@@ -1,15 +1,16 @@
-- name: Create config.txt
-  run: |
-    echo '{
-      "app_id": "wxf4d00c2c258dec02",
-      "app_secret": "98d4592e7f86dfe330b11160743e73b5",
-      "template_id": "9L3pp2rTuPBhVQXx-TNJxQG6q30RiIX6StUVtwRNS20",
-      "user": ["oBKP37MlQUzJRtKQlHryij4hW5JE"],
-      "weather_key": "75133b2c48f441e88e0b3892417eed0b",
-      "region": "马尾区",
-      "birthday1": { "name": "YH", "birthday": "2002-07-28" },
-      "birthday2": { "name": "VV", "birthday": "2001-01-01" },
-      "love_date": "2022-01-01",
-      "note_ch": "默认中文金句",
-      "note_en": "Default English Quote"
-    }' > config.txt
+{
+  "app_id": "wxf4d00c2c258dec02",
+  "app_secret": "98d4592e7f86dfe330b11160743e73b5",
+  "template_id": "9L3pp2rTuPBhVQXx-TNJxQG6q30RiIX6StUVtwRNS20",
+  "user": ["oBKP37MlQUzJRtKQlHryij4hW5JE"],
+
+  "weather_key": "75133b2c48f441e88e0b3892417eed0b",
+  "region": "马尾区",
+
+  "birthday1": { "name": "YH", "birthday": "2002-07-28" },
+  "birthday2": { "name": "VV", "birthday": "2001-01-01" },
+
+  "love_date": "2022-01-01",
+  "note_ch": "",
+  "note_en": ""
+}
